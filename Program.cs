@@ -1,5 +1,4 @@
 ﻿using System;
-
 public class Program
 {
     public static void Main()
@@ -11,8 +10,7 @@ public class Program
         string placeofbirth = Console.ReadLine();
         Console.WriteLine("Nhập ngày sinh:");
         string dateofbirth = Console.ReadLine();
-        Console.WriteLine("Nhập tuổi:")
-            ;
+        Console.WriteLine("Nhập tuổi:");
         int age = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Thông tin:" + name + " - " + placeofbirth + " - " + dateofbirth + " - " + age);
     }
